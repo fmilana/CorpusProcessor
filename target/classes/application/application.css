@@ -1,0 +1,75 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.chart-series-line {    
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.chart-series-line.series0 { -fx-stroke: #e6194b; }
+.chart-series-line.series1 { -fx-stroke: #3cb44b; }
+.chart-series-line.series2 { -fx-stroke: #ffe119; }
+.chart-series-line.series3 { -fx-stroke: #0082c8; }
+.chart-series-line.series4 { -fx-stroke: #f58231; }
+.chart-series-line.series5 { -fx-stroke: #008080; }
+.chart-series-line.series6 { -fx-stroke: #46f0f0; }
+.chart-series-line.series7 { -fx-stroke: #f032e6; }
+.chart-series-line.series8 { -fx-stroke: #808000; }
+.chart-series-line.series9 { -fx-stroke: #000000; }
+
+.chart-line-symbol.series0 { -fx-background-color: #e6194b, white; }
+.chart-line-symbol.series1 { -fx-background-color: #3cb44b, white; }
+.chart-line-symbol.series2 { -fx-background-color: #ffe119, white; }
+.chart-line-symbol.series3 { -fx-background-color: #0082c8, white; }
+.chart-line-symbol.series4 { -fx-background-color: #f58231, white; }
+.chart-line-symbol.series5 { -fx-background-color: #008080, white; }
+.chart-line-symbol.series6 { -fx-background-color: #46f0f0, white; }
+.chart-line-symbol.series7 { -fx-background-color: #f032e6, white; }
+.chart-line-symbol.series8 { -fx-background-color: #808000, white; }
+.chart-line-symbol.series9 { -fx-background-color: #000000, white; }
+
+.default-color0.chart-bar { -fx-bar-fill: #e6194b }
+.default-color1.chart-bar { -fx-bar-fill: #3cb44b }
+.default-color2.chart-bar { -fx-bar-fill: #ffe119 }
+.default-color3.chart-bar { -fx-bar-fill: #0082c8 }
+.default-color4.chart-bar { -fx-bar-fill: #f58231 }
+.default-color5.chart-bar { -fx-bar-fill: #008080 }
+.default-color6.chart-bar { -fx-bar-fill: #46f0f0 }
+.default-color7.chart-bar { -fx-bar-fill: #f032e6 }
+.default-color8.chart-bar { -fx-bar-fill: #808000 }
+.default-color9.chart-bar { -fx-bar-fill: #000000 }
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+.scroll-pane {
+   -fx-background-color: #ffffff;
+}
+
+.scroll-bar:vertical {
+    -fx-pref-width: 20;
+}
+
+.scroll-bar:horizontal {
+    -fx-pref-height: 20;
+}
+
+.list-view .list-cell:odd {
+	-fx-background-color: #F0F0F0;
+	-fx-text-fill: black;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #e0d5dd;
+    -fx-text-fill: black;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #672f57;
+    -fx-text-fill: white;
+}
+
+.root { 
+	-fx-focus-color: #672f57;
+	-fx-faint-focus-color: #672f5722;
+}
+
